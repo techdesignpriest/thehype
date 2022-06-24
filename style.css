@@ -54,7 +54,7 @@ body {
     user-select: none;
     padding: .4em 1.12em .4em 1.12em;
     color: var(--white);
-    font-weight: 700;
+    font-weight: 600;
     cursor: pointer;
 }
 
