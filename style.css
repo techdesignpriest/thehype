@@ -118,7 +118,7 @@ body {
     background-color: var(--main-color) !important;
     color: var(--white);
     text-align: center;
-    font-size: .8rem;
+    font-size: 16px;
     font-weight: 700;
     padding: 1.25em 2.3em 1.25em 2.3em;
 }
