@@ -9,7 +9,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none !important;
-    transition: .2s linear !important;
+    transition: .1s linear !important;
     overflow-x: hidden !important;
     outline: none !important;
     border: none !important;
@@ -34,7 +34,7 @@ body {
 .header {
     position: absolute;
     top: -100%;
-    animation: anim5 2s forwards 2.5s;
+    animation: anim5 1s forwards 1.5s;
     width: 100%;
     margin-top: 2em;
 }
