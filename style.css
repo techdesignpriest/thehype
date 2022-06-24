@@ -184,5 +184,6 @@ footer a:hover {
     }
     footer {
         margin-top: 60em;
+        padding: 50px;
     }
 }
