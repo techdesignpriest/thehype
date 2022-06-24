@@ -103,14 +103,14 @@ body {
     color: #070707;
     font-size: 4rem;
     font-weight: 700;
-    line-height: 80px;
+    line-height: 70px;
     letter-spacing: -3px;
 }
 
 .heading-section p {
     font-size: .9rem;
     color: var(--black);
-    line-height: 32px;
+    line-height: 30px;
     font-weight: 400;
 }
 
