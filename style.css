@@ -9,7 +9,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none !important;
-    transition: .5s linear !important;
+    transition: 1s linear !important;
     overflow-x: hidden !important;
     outline: none !important;
     border: none !important;
@@ -140,7 +140,7 @@ body {
 .footer {
     position: relative;
     left: -100%;
-    animation: anim3 2s forwards 3s;
+    animation: anim3 1s forwards 1s;
 }
 
 footer {
@@ -152,7 +152,7 @@ footer a {
     color: var(--black);
     opacity: 0.7;
     line-height: 20px !important;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1rem;
     margin: 1em;
 }
