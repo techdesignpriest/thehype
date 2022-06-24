@@ -9,7 +9,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none !important;
-    transition: .0.5s linear !important;
+    transition: .5s linear !important;
     overflow-x: hidden !important;
     outline: none !important;
     border: none !important;
