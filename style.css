@@ -9,6 +9,8 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none !important;
+    transition: .1s linear !important;
+    overflow-x: hidden !important;
     outline: none !important;
     border: none !important;
 }
@@ -22,16 +24,29 @@ body {
     width: 100%;
     height: 100%;
     position: absolute;
+    overflow: hidden;
 }
 
+.box-3 {
+    overflow: hidden;
+}
 
 .header {
     position: absolute;
     top: -100%;
+    animation: anim5 1s forwards 1.5s;
     width: 100%;
     margin-top: 2em;
 }
 
+@keyframes anim5 {
+    from {
+        top: -100%;
+    }
+    to {
+        top: 0%;
+    }
+}
 
 .navbar-brand {
     /* font-family: 'Montserrat', sans-serif;*/
@@ -125,6 +140,7 @@ body {
 .footer {
     position: relative;
     left: -100%;
+    animation: anim3 2s forwards 3s;
 }
 
 footer {
@@ -146,7 +162,14 @@ footer a:hover {
     font-weight: 500;
 }
 
-
+@keyframes anim3 {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 0%;
+    }
+}
 
 @media (max-width:992px) {
     .heading {
