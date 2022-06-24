@@ -55,6 +55,7 @@ body {
     padding: .4em 1.12em .4em 1.12em;
     color: var(--white);
     font-weight: 500;
+    font-size: 16px;
     cursor: pointer;
 }
 
