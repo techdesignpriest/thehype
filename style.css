@@ -87,7 +87,7 @@ body {
     color: var(--white);
     font-size: 1rem;
     text-align: center;
-    font-weight: 700;
+    font-weight: 600;
     cursor: pointer;
 }
 
@@ -121,7 +121,7 @@ body {
     text-align: center;
     font-size: 16px;
     font-weight: 600;
-    padding: 1.25em 2.3em 1.25em 2.3em;
+    padding: 1em 2em 1em 2em;
 }
 
 .cta-btn:hover {
