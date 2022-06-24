@@ -104,6 +104,7 @@ body {
     font-size: 4rem;
     font-weight: 700;
     line-height: 80px;
+    letter-spacing: -3px;
 }
 
 .heading-section p {
